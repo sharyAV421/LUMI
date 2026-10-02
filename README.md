@@ -1,5 +1,9 @@
 # LÜMI — Your music. Your flow.
 
+## Enlaces del proyecto
+
+**Aplicación desplegada:** https://lumi-one-eosin.vercel.app/
+
 Reproductor musical  desarrollado en TypeScript. Organiza canciones  y ofrece integración con Spotify, YouTube y archivos de audio locales. 
 
 ## Funcionalidades
