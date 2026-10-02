@@ -22,3 +22,13 @@ Reproductor musical  desarrollado en TypeScript. Organiza canciones  y ofrece in
 
  Algunos videos pueden impedir la reproducción incrustada o no estar disponibles en ciertos territorios.
 
+ ## Acceso a Spotify
+
+LÜMI utiliza la API de Spotify y Spotify Web Playback SDK para realizar búsquedas y reproducir música.
+
+Actualmente, la aplicación está configurada en **modo de desarrollo de Spotify**. En este modo, Spotify requiere que las cuentas utilizadas para realizar pruebas estén previamente autorizadas en la configuración de la aplicación.
+
+Si Spotify no funciona al probar la aplicación desplegada, es posible que la cuenta de Spotify utilizada deba ser agregada como usuario autorizado por el propietario de la aplicación.
+
+Las funciones de YouTube y la reproducción de archivos locales no requieren esta autorización de Spotify.
+
