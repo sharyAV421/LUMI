@@ -19,7 +19,7 @@ Reproductor musical  desarrollado en TypeScript. Organiza canciones  y ofrece in
 - Diseño adaptable a escritorio y móviles.
 
 
-**Limitaciones de Spotify:** el Web Playback SDK requiere Spotify Premium y autorización del usuario. El acceso en modo desarrollo puede estar limitado por las reglas vigentes de Spotify y por la lista de usuarios permitidos de la aplicación. Tener Client ID no garantiza que todos los visitantes puedan reproducir Spotify. Revisa los requisitos actuales del panel de desarrolladores.
+**Limitaciones de Spotify:** el Web Playback SDK requiere Spotify Premium y autorización del usuario. El acceso en modo desarrollo  esta limitado por las reglas vigentes de Spotify y por la lista de usuarios permitidos de la aplicación. 
 
 ### YouTube:
 
@@ -32,7 +32,7 @@ LÜMI utiliza la API de Spotify y Spotify Web Playback SDK para realizar búsque
 
 Actualmente, la aplicación está configurada en **modo de desarrollo de Spotify**. En este modo, Spotify requiere que las cuentas utilizadas para realizar pruebas estén previamente autorizadas en la configuración de la aplicación.
 
-Si Spotify no funciona al probar la aplicación desplegada, es posible que la cuenta de Spotify utilizada deba ser agregada como usuario autorizado por el propietario de la aplicación.
+Si Spotify no funciona al probar la aplicación desplegada, es porque la cuenta de Spotify utilizada debe  ser agregada como usuario autorizado y contar con membresía.
 
 Las funciones de YouTube y la reproducción de archivos locales no requieren esta autorización de Spotify.
 
